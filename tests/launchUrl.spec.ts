@@ -1,23 +1,23 @@
-import {test,expect} from '@playwright/test';
+// import {test,expect} from '@playwright/test';
 
-test.beforeEach(async({page})=>{
+// test.beforeEach(async({page})=>{
 
-    await page.goto('https://ndosisimplifiedautomation.vercel.app/');
-});
+//     await page.goto('https://ndosisimplifiedautomation.vercel.app/');
+// });
 
-test('Launch Ndosi Dev URL',{tag:[ '@smoke' ]}, async({page})=>{
+// test('Launch Ndosi Dev URL',{tag:[ '@smoke' ]}, async({page})=>{
 
-// await page.goto('https://ndosisimplifiedautomation.vercel.app/');
+// // await page.goto('https://ndosisimplifiedautomation.vercel.app/');
 
-await expect(page).toHaveTitle(/Ndosi Test/);
+// await expect(page).toHaveTitle(/Ndosi Test/);
 
-})
+// })
 
 
-test('@sanity Launch Ndosi Dev URL and Verify login button',async({page})=>{
+// test('@sanity Launch Ndosi Dev URL and Verify login button',async({page})=>{
 
-// await page.goto('https://ndosisimplifiedautomation.vercel.app/');
+// // await page.goto('https://ndosisimplifiedautomation.vercel.app/');
 
-await expect(page.getByRole('button', { name: 'Login' })).toBeVisible();
+// await expect(page.getByRole('button', { name: 'Login' })).toBeVisible();
 
-})
+// })

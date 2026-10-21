@@ -9,4 +9,12 @@ async openNdosiPage(){
     async navigateToLoginPage() {
         await this.ClickElement(this.page.getByRole('button', { name: 'Login' }));
     }
+
+    async verifyLoginButtonIsVisible() {
+        await this.VerifyElementVisible(this.page.getByRole('button', { name: 'Login' }));
+    }
+
+    async getLoginHeaderText() {
+        return await this.GetTextValue(this.page.locator('#login-heading'));
+    }
 }

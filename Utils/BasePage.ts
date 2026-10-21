@@ -15,8 +15,10 @@ export class BasePage {
         await locator.fill(text);
     }
 
-    async VerifyElementText(locator: Locator) {
+    async VerifyElementVisible(locator: Locator) {
         await expect(locator).toBeVisible();
+    } 
+    
+   async GetTextValue(locator: Locator) {
+        return await locator.textContent();}
     }
-
-}
