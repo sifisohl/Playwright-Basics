@@ -6,11 +6,11 @@ export class MyProfilePage extends BasePage {
         await this.GoToUrl('/');
     }
 
-    async clickOnMenu() {
-        await this.ClickElement(this.page.getByRole('button', { name: 'Menu' }));
-    }   
-
-    async clickOnMyProfile() {
-        await this.ClickElement(this.page.locator('xpath=//span[contains(.,"My Profile")]'))    ;
+    async updateProfileDetails() {
+        await this.ClickElement(this.page.locator('css=button:has-text("✏️ Edit Profile")'));
+        await this.EnterText(this.page.getByPlaceholder('e.g., octocat'), 'GitUsername');
+        await this.ClickElement(this.page.locator('css=button:has-text("Save Changes")'));
     }
+
+    
 }

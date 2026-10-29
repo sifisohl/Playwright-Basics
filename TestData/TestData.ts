@@ -19,3 +19,6 @@ export const validUsername = {
     }
 
 }
+export const userProfile = {
+    gitUsername: 'MyGitUsername'
+};
