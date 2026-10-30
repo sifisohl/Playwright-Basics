@@ -11,7 +11,7 @@ type CustomFixture = {
     loginPage: LoginPage;
     dashboardPage: DashboardPage;
     myProfilePage: MyProfilePage; 
-    
+
 }
 
 export const test = base.extend<CustomFixture>({
@@ -31,3 +31,4 @@ export const test = base.extend<CustomFixture>({
         await use(new MyProfilePage(page));
     }   
 });
+test.use({ storageState: 'playright/.auth/user.json'});

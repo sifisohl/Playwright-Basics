@@ -1,0 +1,42 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://ndosisimplifiedautomation.vercel.app",
+      "localStorage": [
+        {
+          "name": "lastActivityAt",
+          "value": "1793297844542"
+        },
+        {
+          "name": "user",
+          "value": "{\"id\":\"ee40e1f0-540f-4ec7-ad8d-f61c5a557c49\",\"firstName\":\"Sifiso\",\"lastName\":\"Hla\",\"email\":\"SifisoH@gmail.com\",\"role\":\"admin\",\"groupId\":\"d80a5b29-68e9-43b6-ada0-93722c26fb0f\",\"groupName\":\"1211\",\"approvalStatus\":\"approved\",\"createdAt\":\"2026-08-03 11:38:29\",\"updatedAt\":\"2026-10-29 20:12:19\"}"
+        },
+        {
+          "name": "isAdmin",
+          "value": "true"
+        },
+        {
+          "name": "userFirstName",
+          "value": "Sifiso"
+        },
+        {
+          "name": "ndosi_session_id",
+          "value": "6b82a897-6df2-4b79-a238-e5f8182ff516"
+        },
+        {
+          "name": "userEmail",
+          "value": "SifisoH@gmail.com"
+        },
+        {
+          "name": "userLastName",
+          "value": "Hla"
+        },
+        {
+          "name": "authToken",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJlZTQwZTFmMC01NDBmLTRlYzctYWQ4ZC1mNjFjNWE1NTdjNDkiLCJlbWFpbCI6IlNpZmlzb0hAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwic2Vzc2lvbklkIjoiOThiYjFmMmEtMWI1Yi00ZGE2LTlmOWItZTllMzJmMmJiMDBlIiwiaWF0IjoxNzkzMjk3ODQ0LCJleHAiOjE3OTMzODQyNDR9.OHkp_ImXj4WedqK8koKfVhTNtUXboiVPY0SeN5uHJXg"
+        }
+      ]
+    }
+  ]
+}

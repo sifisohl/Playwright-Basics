@@ -12,9 +12,9 @@ import { test } from '../Fixture/CustomFixture';
 
 test.describe('My Profile Page Tests', () => {
     test('update gitUsername', async ({ dashboardPage, loginPage, homePage, myProfilePage }) => {
-        await homePage.openNdosiPage();
-        await homePage.navigateToLoginPage();
-        await loginPage.userLogin(validUsername.student.username, validUsername.student.password);
+        // await homePage.openNdosiPage();
+        // await homePage.navigateToLoginPage();
+        // await loginPage.userLogin(validUsername.student.username, validUsername.student.password);
         await dashboardPage.ClickElement(dashboardPage.page.getByRole('button', { name: 'Menu' }));
         await dashboardPage.clickOnMyProfile();
         await myProfilePage.updateProfileDetails();
